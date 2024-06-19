@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color: rgb(202, 97, 167);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container img{
+    height: 250px;
+    width: 200px;
+    border:none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.container i{
+    font-size: 30px;
+    color:white;
+    position: absolute;
+    transform: scale(0);
+    transition: all ease-in 0.2s;
+}
